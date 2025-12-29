@@ -3,8 +3,8 @@
   top: 0;
   z-index: 10;
   display: grid;
-  grid-template-columns: 1fr min-content;
-  grid-template-areas: 'search filters';
+  grid-template-columns: 1fr min-content min-content;
+  grid-template-areas: 'search button filters';
   grid-gap: 8px;
   align-items: start;
   padding: var(--space-md);
@@ -44,6 +44,12 @@
   text-align: end;
   white-space: nowrap;
   margin-inline-start: 8px;
+}
+
+.Header__button {
+  grid-area: button;
+  align-self: start;
+  justify-self: start;
 }
 
 /* TODO move following styles to the components which use them */

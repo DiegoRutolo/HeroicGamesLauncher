@@ -10,6 +10,8 @@ export default function Header() {
       <div className="Header">
         <div className="Header__search">
           <LibrarySearchBar />
+        </div>
+        <div className="Header__button">
           <RandomGameButton />
         </div>
         <span className="Header__filters">
