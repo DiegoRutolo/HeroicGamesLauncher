@@ -2,6 +2,7 @@ import LibrarySearchBar from '../LibrarySearchBar'
 import CategoryFilter from '../CategoryFilter'
 import LibraryFilters from '../LibraryFilters'
 import './index.css'
+import RandomGameButton from '../RandomGameButton'
 
 export default function Header() {
   return (
@@ -9,6 +10,7 @@ export default function Header() {
       <div className="Header">
         <div className="Header__search">
           <LibrarySearchBar />
+          <RandomGameButton />
         </div>
         <span className="Header__filters">
           <CategoryFilter />
